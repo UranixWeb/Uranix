@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    line-height: 1.5em;
+    word-spacing: 0.16em;
+    letter-spacing: 0.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    border: 5px solid rgb(0, 195, 3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 195, 3);
+    font-size: xx-large;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: all 0.1s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+header a:hover {
+    color: rgb(0, 169, 45);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.instagram {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 12rem;
+}
+
+
+main {
+    width: 105%;
+    color: rgb(95, 255, 130);
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+    background-color: rgb(209, 255, 206);
+}
+
+aside {
+    width: 17%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    border-left: 3px solid rgb(255, 204, 0);
+    border-bottom: 3px solid rgb(255, 204, 0);
+    background-image: url(https://zivotbezlepku.eu/3947-large_default/cizrna.jpg);
+    padding: 1rem;
+    position: right;
+    color: rgb(255, 255, 255);
+    padding-right: 2rem;
+}
+
+.content-wrapper {
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 255, 55);
+    background-color: rgb(209, 255, 206);
+    font-size: 1,5rem;
+    padding-left: 3rem;
+}
+
+section {
+    font-size:larger;
+    background-color: rgb(209, 255, 206);
+    padding-right: 30rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgba(209, 255, 206, 0);
+}
+
+h1 p {
+    font-size: 4rem;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://media4.manhattan-institute.org/wp-content/uploads/sites/5/Where-Now-for-Nuclear-Power.jpg);
+    font-size: 2rem
+}
+
+.content-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(209, 255, 206);
+    color: rgb(95, 255, 130);
+    padding-left: 3rem;
+    font-size: 1,5rem;
+    border-top: 3px solid rgb(0, 255, 55);
+}
