@@ -94,7 +94,7 @@ h1 {
     margin-left: 2rem;
     margin-right: 2rem;
     background-color: rgba(209, 255, 206, 0);
-    color: rgb(0, 255, 0)
+    color: rgb(0, 255, 0);
 }
 
 section{
@@ -103,7 +103,7 @@ section{
 
 h1 p {
     font-size: 4rem;
-    color: rgb(0, 255, 0)
+    color: rgb(0, 255, 0);
 }
 
 .hero-section {
