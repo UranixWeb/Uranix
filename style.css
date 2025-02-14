@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100vw;
+    width: 1600px;
     min-height: 100vh;
     line-height: 2em;
     word-spacing: 0.16em;
@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    width: 100%;
-    height: 10vh;
+    width: 1600px;
+    height: 70px;
     border: 5px solid rgb(0, 195, 3);
     display: flex;
     flex-direction: row;
@@ -52,7 +52,7 @@ header a:hover {
 
 
 main {
-    width: 100%;
+    width: 1600px;
     color: rgb(95, 255, 130);
     display: flex;
     flex-direction: row;
@@ -60,24 +60,8 @@ main {
     background-color: rgb(209, 255, 206);
 }
 
-aside {
-    width: 17%;
-    height: 280vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    border-left: 3px solid rgb(255, 204, 0);
-    border-bottom: 3px solid rgb(255, 204, 0);
-    background-image: url(https://zivotbezlepku.eu/3947-large_default/cizrna.jpg);
-    padding: 1rem;
-    position: right;
-    color: rgb(255, 255, 255);
-    padding-right: 2rem;
-}
-
 .content-wrapper {
-    width: 100%;
+    width: 1600px;
     height: 100vh;
     position: right;
     display: flex;
@@ -108,22 +92,23 @@ h1 p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 80vh;
-    background-image: url(https://media4.manhattan-institute.org/wp-content/uploads/sites/5/Where-Now-for-Nuclear-Power.jpg);
+    width: 1600px;
+    height: 60vh;
+    background-image: url(elektrarna.png);
     font-size: 2rem
 }
 
 .content-section {
-    width: 90%;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: right;
     background-color: rgb(209, 255, 206);
     color: rgb(0, 155, 0);
-    padding-left: 3rem;
+    padding: 3rem;
     font-size: 1,5rem;
+    padding-right: 20rem;
 }
 
 
@@ -131,7 +116,7 @@ h1 p {
     display: flex;
     flex-direction: row;
     height: 15rem;
-    width: 60rem;
+    width: 100rem;
     padding: 1rem;
     color: gold;
 }
@@ -158,7 +143,7 @@ h1 p {
     display: flex;
     flex-direction: row;
     height: 15rem;
-    width: 60rem;
+    width: 100rem;
     padding: 1rem;
 }
 .jmeno{
@@ -176,4 +161,41 @@ h1 p {
     width: 10rem;
     height: 15rem;
     border: 3px solid rgb(0, 155, 0);
+}
+
+.github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.content-section a:hover {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.content-section a {
+    color: rgb(0, 169, 45);
+    text-decoration: none;
+}
+
+.virus-section{
+    color: red;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-size: small;
+    background-image: url(vikricnik.png)
+}
+
+.popis{
+    padding: 2rem;
+    border: 3px solid rgb(0, 153, 0);
+    width: 30rem;
+    height: 176px;
 }
