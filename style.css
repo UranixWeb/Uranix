@@ -145,6 +145,8 @@ h1 p {
     width: 500px;
     height: 176px;
     background-color: rgb(255, 238, 169);
+    height: 192px;
+    padding-top: 1rem;
 }
 
 .clen{
@@ -210,4 +212,6 @@ h1 p {
     border: 3px solid rgb(0, 153, 0);
     width: 500px;
     height: 176px;
+    height: 192px;
+    padding-top: 1rem;
 }
