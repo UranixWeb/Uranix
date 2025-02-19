@@ -118,7 +118,7 @@ h1 p {
     height: 15rem;
     width: 100rem;
     padding: 1rem;
-    color: gold;
+    color: rgb(196, 166, 0);
 }
 
 .jmenoz{
@@ -129,7 +129,7 @@ h1 p {
     border: 3px solid gold;
     min-width: 30rem;
     line-height: normal;
-    background-color: rgb(255, 232, 140);
+    background-color: rgb(255, 238, 169);
     height: 15rem;
 }
 
@@ -137,6 +137,14 @@ h1 p {
     width: 10rem;
     height: 15rem;
     border: 3px solid gold;
+}
+
+.popisz{
+    padding: 2rem;
+    border: 3px solid gold;
+    width: 500px;
+    height: 176px;
+    background-color: rgb(255, 238, 169);
 }
 
 .clen{
@@ -195,7 +203,11 @@ h1 p {
 
 .popis{
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     border: 3px solid rgb(0, 153, 0);
-    width: 30rem;
+    width: 500px;
     height: 176px;
 }
