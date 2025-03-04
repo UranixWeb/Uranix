@@ -127,6 +127,7 @@ h1 p {
     align-content: center;
     align-items: center;
     border: 3px solid gold;
+    border-right: 3px solid rgb(0, 0, 0, 0);
     min-width: 30rem;
     line-height: normal;
     background-color: rgb(255, 238, 169);
@@ -142,11 +143,13 @@ h1 p {
 .popisz{
     padding: 2rem;
     border: 3px solid gold;
+    border-left: 3px solid rgb(0, 0, 0, 0);
     width: 500px;
     height: 176px;
     background-color: rgb(255, 238, 169);
     height: 192px;
     padding-top: 1rem;
+    border-left: 3px solid rgb(0, 0, 0, 0);
 }
 
 .clen{
@@ -162,6 +165,7 @@ h1 p {
     align-content: center;
     align-items: center;
     border: 3px solid rgb(0, 155, 0);
+    border-right: 3px solid rgb(0, 0, 0, 0);
     min-width: 30rem;
     line-height: normal;
     height: 15rem;
@@ -210,7 +214,10 @@ h1 p {
     align-content: center;
     align-items: center;
     border: 3px solid rgb(0, 153, 0);
+    border-left: 3px solid rgb(0, 0, 0, 0);
     width: 500px;
     height: 192px;
     padding-top: 1rem;
+    justify-content: center;
+    justify-items: center;
 }
