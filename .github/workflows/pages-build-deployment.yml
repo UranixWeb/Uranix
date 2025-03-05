@@ -21,6 +21,6 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          timeout: 6000000000
+          timeout: 600000
           artifact_name: github-pages
           preview: false
