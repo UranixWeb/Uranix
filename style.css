@@ -248,7 +248,7 @@ h1 p {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    border: 3px solid gold;
+    border: 3px solid rgb(46, 46, 58);
     min-width: 30rem;
     line-height: normal;
     background-color: rgb(167, 167, 167);
@@ -267,6 +267,7 @@ h1 p {
     padding-top: 1rem;
     justify-content: center;
     justify-items: center;
+    background-color: rgb(167, 167, 167);
 }
 
 
