@@ -242,3 +242,46 @@ h1 p {
     font-size: 2rem;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
+
+.jmenoo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 3px solid gold;
+    min-width: 30rem;
+    line-height: normal;
+    background-color: rgb(167, 167, 167);
+    height: 15rem;
+}
+
+.popiso{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 3px solid rgb(46, 46, 58);
+    width: 500px;
+    height: 192px;
+    padding-top: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.fotkao{
+    width: 10rem;
+    height: 15rem;
+    border: 3px solid rgb(46, 46, 58);
+}
+
+
+.odpadlik{
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    width: 100rem;
+    padding: 1rem;
+    color: rgb(46, 46, 58);
+}
