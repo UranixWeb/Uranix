@@ -44,6 +44,10 @@ header a:hover {
 .instagram {
     width: 4rem;
     height: 4rem;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Optional: Center the container itself */
 }
 
 
@@ -52,7 +56,7 @@ main {
     color: rgb(95, 255, 130);
     display: flex;
     flex-direction: row;
-    margin-top: 8vh;
+    margin-top: 0; /* Ensure no extra space from the main element */
     background-color: rgb(209, 255, 206);
 }
 
@@ -93,6 +97,7 @@ h1 p {
     background-image: url(elektrarna.png);
     font-size: 2rem;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 0; /* Remove the space */
 }
 
 .content-section {
